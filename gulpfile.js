@@ -106,13 +106,13 @@ let cmds = [
     'git status',
     'git add .',
     'git commit -m "update"',
-    'git push origin master; git push gitlab master; git push nuysoft master;',
+    'git push origin master; git push gitlab master;',
     'git checkout gh-pages',
     'cp -fr _book/* ./',
     'git status',
     'git add .',
     'git commit -m "update"',
-    'git push origin gh-pages; git push gitlab gh-pages; git push nuysoft gh-pages;',
+    'git push origin gh-pages; git push gitlab gh-pages;',
     'git checkout master'
 ]
 gulp.task('publish', shell.task(cmds, {
