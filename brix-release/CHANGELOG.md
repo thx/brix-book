@@ -8,6 +8,10 @@
 //g.alicdn.com/thx/brix-release/1.0.0-beta.16/require-config-css-debug.js
 //g.alicdn.com/thx/brix-release/1.0.0-beta.16/require-config-css.js
 ```
+## 2016.08.16, Version 1.0.0-beta.17
+
+### thx/brix-components
+1. **修复** [#122 DatePicker:小月份切换大月份时间错乱问题](https://github.com/thx/brix-components/issues/122)
 
 ## 2016.06.16, Version 1.0.0-beta.16
 
